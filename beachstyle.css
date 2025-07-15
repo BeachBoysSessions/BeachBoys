@@ -9,6 +9,14 @@ songtitle {font-size: x-large;
             font-weight: bold;
             color: #c0c001;
             }
+
+center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+
 tape {
             font-weight: bold;
           
