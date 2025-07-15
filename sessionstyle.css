@@ -1,92 +1,77 @@
-@font-face {
-   font-family: aptos;
-   src: url(aptos.ttf);
-}
+body {margin:0;font-family:Arial}
 
-
-body {background-color: white;
-        font-family: aptos;}
-
-songtitle {font-size: x-large;
-            font-weight: bold;
-            color: #c0c001;
-            }
-
-center {
+.center {
   margin: auto;
-  width: 60%;
+  width: 50%;
   padding: 10px;
 }
 
-
-tape {
-            font-weight: bold;
-          
-            }
-
-notes {
-            font-size: small;
-          
-            }     
-instrumentalists {
-                     color: blue;
-                     text-indent: 1%;
-                     list-style-type: square;
-              }    
-
-specificinstrument {
-                      font-size: small;
-
-                  }
-
-instRole {
-                      color: rgb(140, 140, 140);
-
-                  }
-
-singers {
-                     color: rgb(255, 0, 0);
-              }    
-
-bigtime {
-            font-weight: bold;
-            font-size: x-large;
-            color: rgb(148, 148, 34);
-            }
-
-
 .topnav {
   overflow: hidden;
-  background-color: gray;
+  background-color: #793030;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: navy;
+  color: #89b327;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
-.topnav a:hover {
-  background-color: red;
-  color: white;
-}
-
-.topnav a.active {
-  background-color: brown;
-  color: chartreuse;
+.active {
+  background-color: #09452f;
+  color: rgb(166, 43, 127);
 }
 
 .topnav .icon {
   display: none;
 }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: rgb(77, 78, 142);
+  padding: 14px 16px;
+  background-color: chartreuse;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: plum;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
   color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555555;
+  color: rgb(60, 33, 67);
+}
+
+.dropdown-content a:hover {
+  background-color: #4c3939;
+  color: rgb(181, 139, 24);
 }
 
 .dropdown:hover .dropdown-content {
