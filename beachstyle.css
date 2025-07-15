@@ -61,7 +61,7 @@ bigtime {
 .topnav {
   overflow: hidden;
   background-color: #078039;
-  font-face: cooper;
+  font-family: cooper;
 }
 
 .topnav a {
