@@ -70,11 +70,11 @@ bigtime {
 
 .topnav a:hover {
   background-color: #d59b51;
-  color: black;
+  color: #b7cbd6;
 }
 
 .topnav a.active {
-  background-color: #fbffff;
+  background-color: #feeeca;
   color: #fedc3c;
 }
 
