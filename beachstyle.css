@@ -1,11 +1,11 @@
 @font-face {
    font-family: aptos;
    src: url(aptos.ttf);
+}
 
 @font-face {
    font-family: cooper;
-   src: url(cooper.woff);
-   
+   src: url(cooper.woff);   
 }
 
 body {background-color: #daffd8;
