@@ -1,6 +1,6 @@
 @font-face {
    font-family: aptos;
-   src: url(/aptos.ttf);
+   src: url(aptos.ttf);
 }
 
 body {background-color: #89e084;
@@ -47,13 +47,13 @@ bigtime {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #078039;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #fedc3d;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -66,8 +66,8 @@ bigtime {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #8f8444;
+  color: #fedc3c;
 }
 
 .topnav .icon {
