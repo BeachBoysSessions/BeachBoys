@@ -53,7 +53,7 @@ bigtime {
 .topnav a {
   float: left;
   display: block;
-  color: #078039;
+  color: #fedc3c;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -61,12 +61,12 @@ bigtime {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #d59b51;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #078039;
+  background-color: #fbffff;
   color: #fedc3c;
 }
 
