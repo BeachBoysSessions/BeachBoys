@@ -84,8 +84,19 @@ bigtime {
   display: none;
 }
 
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -104,3 +115,11 @@ bigtime {
     display: block;
     text-align: left;
   }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
