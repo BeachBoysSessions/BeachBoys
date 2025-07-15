@@ -3,7 +3,7 @@
    src: url(aptos.ttf);
 }
 
-body {background-color: #89e084;
+body {background-color: #daffd8;
         font-family: aptos;}
 songtitle {font-size: x-large;
             font-weight: bold;
@@ -53,7 +53,7 @@ bigtime {
 .topnav a {
   float: left;
   display: block;
-  color: #fedc3d;
+  color: #078039;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -66,7 +66,7 @@ bigtime {
 }
 
 .topnav a.active {
-  background-color: #8f8444;
+  background-color: #078039;
   color: #fedc3c;
 }
 
