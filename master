@@ -1,0 +1,66 @@
+<!DOCTYPE html><html>
+
+<head>
+  <link rel="stylesheet" href="sessionstyle.css">
+</head>
+
+ 
+ <body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index" class="active">Sessions Home</a>
+  <a href="wibn">Surfin' Safari</a>
+  <a href="ysbim">Surfin' U.S.A.</a>
+  <a href="tnm">Surfer Girl</a>
+  <a href="dtpyhoms">Little Deuce Couple</a>
+  <a href="iwftd">Shut Down Vol 2</a>
+  <a href="lgafa">All Summer Long</a>
+  <a href="sjb">The Beach Boys Christmas Album</a>
+  <a href="gok">The Beach Boys Today!</a>
+  <a href="iktaa">Summer Days (and Summer Nights!)</a>
+  <a href="ht">Beach Boys Party</a>
+  <a href="ijwmftt">Pet Sounds</a>
+  <a href="ps">Smile Era</a>
+  <a href="cn">Smiley Smile</a>
+  <a href="tlgiok">Wild Honey</a>
+  <a href="td">Friends</a>
+  <a href="key">20/20</a>
+  <a href="acks">Sunflower</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="bigtime"></div>
+<div class="songtitle"></div>
+<div class="tape"></div>
+<div class="notes"></div>
+<div class="instrumentalists"></div>
+<div class="specificinstrument"></div>
+<div class="instRole"></div>
+<div class="singers"></div>
+<div class="center"></div>
+  
+ <center><bigtime>Welcome to a new Pet Sounds Sessionography compiled for the 60th Anniversary of the release.</bigtime><br>
+ <br>
+ Use the navigation to view the sessionography for each track.  A guide is available to explain our methods and formatting choices.<br><br>
+
+ New sessionographies will be released over the course of the Pet Sounds anniverary period, from July of 2025 through April of 2026.<br><br>
+
+ Sessionographies by:<br>
+John Brode, Iconic Artists Group<br>
+Will Crerar, bon vivant<br>
+Joshilyn Hoisington, AA, BA, JD, MS<br>
+Craig Slowinski, Legenday Sessionographer<br><br>
+
+Original Research (c) 2025-2026
+ 
+ 
+ </center>
+ 
+  <script src="beachscript.js"></script> 
+ </body>
+ 
+ 
+
+ </html>
