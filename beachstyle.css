@@ -1,7 +1,49 @@
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+   font-family: aptos;
+   src: url(/aptos.ttf);
 }
+
+body {background-color: #89e084;
+        font-family: aptos;}
+songtitle {font-size: x-large;
+            font-weight: bold;
+            color: #c0c001;
+            }
+tape {
+            font-weight: bold;
+          
+            }
+
+notes {
+            font-size: small;
+          
+            }     
+instrumentalists {
+                     color: blue;
+                     text-indent: 1%;
+                     list-style-type: square;
+              }    
+
+specificinstrument {
+                      font-size: small;
+
+                  }
+
+instRole {
+                      color: rgb(140, 140, 140);
+
+                  }
+
+singers {
+                     color: rgb(255, 0, 0);
+              }    
+
+bigtime {
+            font-weight: bold;
+            font-size: x-large;
+            color: rgb(148, 148, 34);
+            }
+
 
 .topnav {
   overflow: hidden;
@@ -52,4 +94,3 @@ body {
     display: block;
     text-align: left;
   }
-}
