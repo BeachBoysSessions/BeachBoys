@@ -1,6 +1,11 @@
 @font-face {
    font-family: aptos;
    src: url(aptos.ttf);
+
+@font-face {
+   font-family: cooper;
+   src: url(cooper.woff);
+   
 }
 
 body {background-color: #daffd8;
@@ -56,6 +61,7 @@ bigtime {
 .topnav {
   overflow: hidden;
   background-color: #078039;
+  font-face: cooper;
 }
 
 .topnav a {
@@ -75,7 +81,7 @@ bigtime {
 
 .topnav a.active {
   background-color: #feeeca;
-  color: #fedc3c;
+  color: #3c3d2b;
 }
 
 .topnav .icon {
