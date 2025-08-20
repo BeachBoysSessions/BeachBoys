@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with Frames</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .frame-container {
+            display: flex;
+            height: calc(100vh - 50px); /* Adjust based on navbar height */
+        }
+        .frame {
+            border: none;
+            width: 33.33%;
+            height: 100%;
+        }
+        .middle-frame {
+            background-color: #f0f0f0; /* Fallback in case iframe content doesn't fill */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            width: 33.33%;
+            height: 100%;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <h2>My Website</h2>
+</div>
+
+<div class="frame-container">
+    <iframe class="frame" src="about:blank"></iframe>
+    <div class="middle-frame" src="wibn.html">
+    </div>
+    <iframe class="frame" src="about:blank"></iframe>
+</div>
+
+</body>
+</html>
