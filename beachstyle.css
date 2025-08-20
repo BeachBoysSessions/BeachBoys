@@ -9,7 +9,10 @@
 }
 
 body {background-color: #daffd8;
-        font-family: aptos;}
+        font-family: aptos;
+        font-weight: normal;
+     }
+
 songtitle {font-size: x-large;
             font-weight: bold;
             color: #c0c001;
